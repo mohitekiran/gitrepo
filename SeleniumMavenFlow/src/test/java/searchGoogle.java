@@ -17,7 +17,7 @@ public class searchGoogle {
 		driver = new FirefoxDriver();
 	}
 
-	@Test
+	@Test(priority=1)
 	public void searchAndClick() {
 		driver.get("https://www.google.com/");
 		driver.manage().window().fullscreen();
